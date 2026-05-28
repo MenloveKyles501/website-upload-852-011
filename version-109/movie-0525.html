@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>快乐哆唻咪 · 旧校黑板</title>
+<meta name="description" content="一个摇滚乐手父亲发现自己患有重度自闭症的儿子只对一种声音有反应——他年轻时砸碎的那把吉他的残响。 曾经的地下摇滚乐队吉他手阿翔,如今是个在婚庆场合弹《月亮代表我的心》的油腻中年。他被离婚、被嫌弃、被生活按在地上反复摩擦。他唯一的牵挂是8岁的儿子小树——一个从不说话、从不看人、只会摇晃身体的重度自闭症儿童。某天阿翔无意中用一把破吉他弹了一">
+<meta name="keywords" content="快乐哆唻咪,家庭,音乐,治愈,自闭症,音乐治疗,父子关系,温情,中国大陆,2024,旧校黑板">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/data.js"></script>
+<script defer src="assets/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+</head>
+<body>
+<div class="site-shell">
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html" aria-label="旧校黑板 首页">
+      <div class="brand-mark"></div>
+      <div class="brand-title">
+        <strong>旧校黑板</strong>
+        <span>STATIC CINEMA</span>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="">首页</a><a href="catalog/" class="">全部影片</a><a href="ranking.html" class="">热度排行</a><a href="categories.html" class="">分类浏览</a><a href="regions.html" class="">地区</a><a href="years.html" class="">年份</a>
+    </nav>
+    <form class="searchbar" data-search-form>
+      <input name="q" type="search" placeholder="搜索影片标题、地区、类型、标签">
+      <button class="btn btn-primary" type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main class="section">
+  <div class="container">
+    <div class="detail-hero">
+      <div class="poster">
+        <img src="assets/posters/0525.svg" alt="快乐哆唻咪">
+      </div>
+      <div class="detail-copy">
+        <div class="hero-kicker" style="margin-bottom:16px">影片详情 · 2024 · 中国大陆 · 热度 86.4</div>
+        <h1>快乐哆唻咪</h1>
+        <p class="lead">一个摇滚乐手父亲发现自己患有重度自闭症的儿子只对一种声音有反应——他年轻时砸碎的那把吉他的残响。</p>
+        <div class="hero-meta"><span class="chip">2024</span><span class="chip">中国大陆</span><span class="chip">家庭</span><span class="chip">音乐</span><span class="chip">治愈</span></div>
+        <div class="hero-actions" style="margin-top:10px">
+          <a class="btn btn-primary" href="#player">开始播放</a>
+          <a class="btn btn-secondary" href="catalog/">返回列表</a>
+        </div>
+        <div class="info-grid">
+          <div class="info-box"><span>类型</span><strong>家庭 / 音乐 / 治愈</strong></div>
+          <div class="info-box"><span>地区</span><strong>中国大陆</strong></div>
+          <div class="info-box"><span>年份</span><strong>2024</strong></div>
+        </div>
+        <div class="board">
+          <h3>剧情简介</h3>
+          <div class="prose"><p>曾经的地下摇滚乐队吉他手阿翔,如今是个在婚庆场合弹《月亮代表我的心》的油腻中年。他被离婚、被嫌弃、被生活按在地上反复摩擦。他唯一的牵挂是8岁的儿子小树——一个从不说话、从不看人、只会摇晃身体的重度自闭症儿童。某天阿翔无意中用一把破吉他弹了一个不和谐和弦,小树突然停下了所有刻板行为,直直地盯着他。阿翔发现,小树只对那把吉他发出的特定频段的残响有反应——而那把吉他正是他二十年前在乐队解散时亲手砸烂的。他开始疯狂修复那把吉他,并尝试用改造后的吉他音色与小树“对话”。这不是一个治愈奇迹的故事,而是一个父亲把自己整个人砸进儿子的世界里,哪怕只换来一个对视的故事。</p></div>
+          <h3 style="margin-top:20px">影评</h3>
+          <div class="prose"><p>不煽情不卖惨,用音乐做桥梁但又不神话音乐。父亲从逃避到面对再到彻底接纳的过程,每一帧都像刀子一样精准。最后那场没有台词的“父子双吉他”即兴合奏,是近五年国产剧最动人的五分钟。</p></div>
+        </div>
+      </div>
+    </div>
+
+    <section class="player" id="player">
+      <div class="player-head">
+        <div class="section-title">
+          <h2>在线播放</h2>
+          <p>使用 HLS 片源与播放器初始化逻辑，支持点击播放</p>
+        </div>
+      </div>
+      <div class="player-wrap">
+        <div class="player-video">
+          <video id="moviePlayer" controls playsinline preload="metadata" poster="assets/posters/0525.svg" data-hls-src="assets/hls/sample/index.m3u8"></video>
+        </div>
+        <p id="playerFallback" class="prose" style="margin:14px 2px 0;">如果播放器尚未自动开始，点击播放即可。</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:18px">
+      <div class="board">
+        <div class="listing-head">
+          <div class="section-title">
+            <h2>相关推荐</h2>
+            <p>来自同地区、同类型与关联 ID 的静态推荐</p>
+          </div>
+        </div>
+        <div class="mini-list" id="relatedList" data-related-ids="0215,0538,0762,0894,0109,0483">
+          
+<a class="mini-item" href="movie-0215.html">
+  <img src="assets/posters/0215.svg" alt="潮流教主粤语">
+  <div>
+    <h4>潮流教主粤语</h4>
+    <p>2024 · 中国香港 · 剧情</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0538.html">
+  <img src="assets/posters/0538.svg" alt="夏日沙上">
+  <div>
+    <h4>夏日沙上</h4>
+    <p>2012 · 日本 · 爱情 / 剧情</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0762.html">
+  <img src="assets/posters/0762.svg" alt="审判日-尤斯基兴枪手">
+  <div>
+    <h4>审判日-尤斯基兴枪手</h4>
+    <p>2025 · 芬兰/德国 · 历史 / 战争</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0894.html">
+  <img src="assets/posters/0894.svg" alt="一刀风月">
+  <div>
+    <h4>一刀风月</h4>
+    <p>1995 · 中国香港 · 武侠 / 情色</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0109.html">
+  <img src="assets/posters/0109.svg" alt="职业杀神">
+  <div>
+    <h4>职业杀神</h4>
+    <p>2024 · 英国 · 动作 / 犯罪</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0483.html">
+  <img src="assets/posters/0483.svg" alt="心灵之声">
+  <div>
+    <h4>心灵之声</h4>
+    <p>2025 · 美国 · 科幻悬疑</p>
+  </div>
+</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:18px">
+      <div class="board">
+        <div class="listing-head">
+          <div class="section-title">
+            <h2>同类热播</h2>
+            <p>相近类型与标签的更多静态入口</p>
+          </div>
+        </div>
+        <div class="movie-grid">
+<a class="movie-card" href="movie-0792.html">
+  <div class="thumb">
+    <img src="assets/posters/0792.svg" alt="绵绵长路">
+    <div class="badge">2026</div>
+    <div class="corner">中国大陆</div>
+  </div>
+  <div class="body">
+    <h4>绵绵长路</h4>
+    <div class="meta">
+      <span>剧情 / 公路</span>
+      <span>·</span>
+      <span>老年、自驾</span>
+    </div>
+    <p class="desc">七旬退休教师开车带着患有阿尔茨海默症的妻子横穿中国,去她记忆里最后一个记得的地名。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0115.html">
+  <div class="thumb">
+    <img src="assets/posters/0115.svg" alt="年轻的心">
+    <div class="badge">2026</div>
+    <div class="corner">中国大陆</div>
+  </div>
+  <div class="body">
+    <h4>年轻的心</h4>
+    <div class="meta">
+      <span>剧情 / 青春</span>
+      <span>·</span>
+      <span>养老院、忘年交</span>
+    </div>
+    <p class="desc">一个被全网网暴的叛逆少女,被扔进养老院做义工,却和一群八旬老人组成了摇滚乐队。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-1771.html">
+  <div class="thumb">
+    <img src="assets/posters/1771.svg" alt="仙人掌">
+    <div class="badge">2025</div>
+    <div class="corner">墨西哥</div>
+  </div>
+  <div class="body">
+    <h4>仙人掌</h4>
+    <div class="meta">
+      <span>剧情 / 西部</span>
+      <span>·</span>
+      <span>荒漠、家族</span>
+    </div>
+    <p class="desc">老人临终前告诉三个儿子:谁能在荒漠中让一株仙人掌开花,谁就继承整个农场。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-1716.html">
+  <div class="thumb">
+    <img src="assets/posters/1716.svg" alt="尘音">
+    <div class="badge">2024</div>
+    <div class="corner">中国台湾</div>
+  </div>
+  <div class="body">
+    <h4>尘音</h4>
+    <div class="meta">
+      <span>奇幻 / 剧情</span>
+      <span>·</span>
+      <span>治愈、钢琴</span>
+    </div>
+    <p class="desc">一位失意的钢琴调律师发现,只要自己弹出一段特定的旋律,就能短暂地“召回”物品中残留的灵魂记忆。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-1196.html">
+  <div class="thumb">
+    <img src="assets/posters/1196.svg" alt="英伦琵琶">
+    <div class="badge">2025</div>
+    <div class="corner">英国/中国香港</div>
+  </div>
+  <div class="body">
+    <h4>英伦琵琶</h4>
+    <div class="meta">
+      <span>动作 / 音乐</span>
+      <span>·</span>
+      <span>中西结合、乐手特工</span>
+    </div>
+    <p class="desc">一个被开除的皇家音乐学院华裔高材生,为了保护一把价值连城的大提琴,被迫与伦敦黑帮展开了一场以乐谱为密码的智力游戏。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-1425.html">
+  <div class="thumb">
+    <img src="assets/posters/1425.svg" alt="怆寿">
+    <div class="badge">2026</div>
+    <div class="corner">韩国</div>
+  </div>
+  <div class="body">
+    <h4>怆寿</h4>
+    <div class="meta">
+      <span>剧情 / 家庭</span>
+      <span>·</span>
+      <span>亲情、绝症</span>
+    </div>
+    <p class="desc">七十岁的老木匠发现自己拥有无限循环同一天的能力,但他唯一想做的,是学会如何陪伴患痴呆症的老伴走到最后。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0164.html">
+  <div class="thumb">
+    <img src="assets/posters/0164.svg" alt="阿尔法爸爸">
+    <div class="badge">2024</div>
+    <div class="corner">美国</div>
+  </div>
+  <div class="body">
+    <h4>阿尔法爸爸</h4>
+    <div class="meta">
+      <span>科幻 / 家庭</span>
+      <span>·</span>
+      <span>机器人育儿、父权解构</span>
+    </div>
+    <p class="desc">最强战斗机器人退役后被改造成全职奶爸,他的带娃方式:用导弹威慑邻居,用战术布局哄睡。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0244.html">
+  <div class="thumb">
+    <img src="assets/posters/0244.svg" alt="我喊爱">
+    <div class="badge">2025</div>
+    <div class="corner">中国香港</div>
+  </div>
+  <div class="body">
+    <h4>我喊爱</h4>
+    <div class="meta">
+      <span>剧情 / 家庭</span>
+      <span>·</span>
+      <span>亲情、底层生活</span>
+    </div>
+    <p class="desc">出生在聋哑家庭的六岁女孩是全家唯一的“传声筒”,直到有一天她突然失声。</p>
+  </div>
+</a></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>旧校黑板</h4>
+      <p>一座黑板风格的静态电影站，把影片内容、分类浏览、排行榜与详情页完整落到 HTML 中。</p>
+    </div>
+    <div>
+      <h4>浏览</h4>
+      <ul>
+        <li><a href="catalog/">全部影片</a></li>
+        <li><a href="ranking.html">热度排行</a></li>
+        <li><a href="categories.html">分类浏览</a></li>
+        <li><a href="browse.html">智能搜索</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>更多</h4>
+      <ul>
+        <li><a href="about.html">网站介绍</a></li>
+        <li><a href="support.html">播放问题</a></li>
+        <li><a href="copyright.html">免责声明</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>逃离旋转岛 · 旧校黑板</title>
+<meta name="description" content="一群少年发现自己住在一个不断旋转的人工岛上,而岛外是一片死寂的辐射废土。 16岁的少年凯住在一个特殊的岛屿上,整座岛像巨大的圆盘持续旋转,昼夜交替仅需4小时。岛民被告知外界已被毒气覆盖,旋转是为了维持生态平衡。当凯的好友因试图“跳岛”失踪后,他潜入岛心控制室,发现旋转根本不是防护措施,而是为了制造离心力掩盖岛正在">
+<meta name="keywords" content="逃离旋转岛,科幻冒险,迷宫,循环,青少年科幻,反乌托邦,美国,2025,旧校黑板">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/data.js"></script>
+<script defer src="assets/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+</head>
+<body>
+<div class="site-shell">
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html" aria-label="旧校黑板 首页">
+      <div class="brand-mark"></div>
+      <div class="brand-title">
+        <strong>旧校黑板</strong>
+        <span>STATIC CINEMA</span>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="">首页</a><a href="catalog/" class="">全部影片</a><a href="ranking.html" class="">热度排行</a><a href="categories.html" class="">分类浏览</a><a href="regions.html" class="">地区</a><a href="years.html" class="">年份</a>
+    </nav>
+    <form class="searchbar" data-search-form>
+      <input name="q" type="search" placeholder="搜索影片标题、地区、类型、标签">
+      <button class="btn btn-primary" type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main class="section">
+  <div class="container">
+    <div class="detail-hero">
+      <div class="poster">
+        <img src="assets/posters/0909.svg" alt="逃离旋转岛">
+      </div>
+      <div class="detail-copy">
+        <div class="hero-kicker" style="margin-bottom:16px">影片详情 · 2025 · 美国 · 热度 79.0</div>
+        <h1>逃离旋转岛</h1>
+        <p class="lead">一群少年发现自己住在一个不断旋转的人工岛上,而岛外是一片死寂的辐射废土。</p>
+        <div class="hero-meta"><span class="chip">2025</span><span class="chip">美国</span><span class="chip">科幻冒险</span></div>
+        <div class="hero-actions" style="margin-top:10px">
+          <a class="btn btn-primary" href="#player">开始播放</a>
+          <a class="btn btn-secondary" href="catalog/">返回列表</a>
+        </div>
+        <div class="info-grid">
+          <div class="info-box"><span>类型</span><strong>科幻冒险</strong></div>
+          <div class="info-box"><span>地区</span><strong>美国</strong></div>
+          <div class="info-box"><span>年份</span><strong>2025</strong></div>
+        </div>
+        <div class="board">
+          <h3>剧情简介</h3>
+          <div class="prose"><p>16岁的少年凯住在一个特殊的岛屿上,整座岛像巨大的圆盘持续旋转,昼夜交替仅需4小时。岛民被告知外界已被毒气覆盖,旋转是为了维持生态平衡。当凯的好友因试图“跳岛”失踪后,他潜入岛心控制室,发现旋转根本不是防护措施,而是为了制造离心力掩盖岛正在沉没的真相。更可怕的是,成年人们早已知晓,他们秘密建造了逃生方舟,却只够带走精英阶层。凯联合一群被抛弃的少年,必须在岛彻底崩溃前的最后48小时里,打破这场精心设计的骗局。</p></div>
+          <h3 style="margin-top:20px">影评</h3>
+          <div class="prose"><p>高概念设定的悬疑动画,脑洞大开。旋转岛的物理设定在视觉上极具冲击力,每一次翻转都伴随着紧张感的升级。影片对“成年权威”的颠覆性刻画大胆犀利,结尾少年们手拉手站在即将解体的岛边缘迎向未知大海的画面,热血又悲壮。</p></div>
+        </div>
+      </div>
+    </div>
+
+    <section class="player" id="player">
+      <div class="player-head">
+        <div class="section-title">
+          <h2>在线播放</h2>
+          <p>使用 HLS 片源与播放器初始化逻辑，支持点击播放</p>
+        </div>
+      </div>
+      <div class="player-wrap">
+        <div class="player-video">
+          <video id="moviePlayer" controls playsinline preload="metadata" poster="assets/posters/0909.svg" data-hls-src="assets/hls/sample/index.m3u8"></video>
+        </div>
+        <p id="playerFallback" class="prose" style="margin:14px 2px 0;">如果播放器尚未自动开始，点击播放即可。</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:18px">
+      <div class="board">
+        <div class="listing-head">
+          <div class="section-title">
+            <h2>相关推荐</h2>
+            <p>来自同地区、同类型与关联 ID 的静态推荐</p>
+          </div>
+        </div>
+        <div class="mini-list" id="relatedList" data-related-ids="0335,0118,0468,0204,0377,0082">
+          
+<a class="mini-item" href="movie-0335.html">
+  <img src="assets/posters/0335.svg" alt="绝命档案">
+  <div>
+    <h4>绝命档案</h4>
+    <p>2026 · 中国 · 悬疑 / 犯罪</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0118.html">
+  <img src="assets/posters/0118.svg" alt="爱在独木桥">
+  <div>
+    <h4>爱在独木桥</h4>
+    <p>2025 · 中国大陆/台湾 · 爱情 / 剧情</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0468.html">
+  <img src="assets/posters/0468.svg" alt="童梦失魂夜">
+  <div>
+    <h4>童梦失魂夜</h4>
+    <p>2025 · 法国 · 奇幻 / 惊悚</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0204.html">
+  <img src="assets/posters/0204.svg" alt=":大战皇家赌场">
+  <div>
+    <h4>:大战皇家赌场</h4>
+    <p>2025 · 英国/美国 · 动作 / 惊悚</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0377.html">
+  <img src="assets/posters/0377.svg" alt="雄狮">
+  <div>
+    <h4>雄狮</h4>
+    <p>2025 · 中国大陆 · 动作 / 剧情</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0082.html">
+  <img src="assets/posters/0082.svg" alt="婚前21天">
+  <div>
+    <h4>婚前21天</h4>
+    <p>2024 · 中国大陆 · 爱情 / 喜剧</p>
+  </div>
+</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:18px">
+      <div class="board">
+        <div class="listing-head">
+          <div class="section-title">
+            <h2>同类热播</h2>
+            <p>相近类型与标签的更多静态入口</p>
+          </div>
+        </div>
+        <div class="movie-grid">
+<a class="movie-card" href="movie-1020.html">
+  <div class="thumb">
+    <img src="assets/posters/1020.svg" alt="神秘博士归来">
+    <div class="badge">2025</div>
+    <div class="corner">英国</div>
+  </div>
+  <div class="body">
+    <h4>神秘博士归来</h4>
+    <div class="meta">
+      <span>科幻冒险</span>
+      <span>·</span>
+      <span>时间旅行、重启</span>
+    </div>
+    <p class="desc">第15任博士首次面临一个摧毁所有时间线的“永恒敌人”,他必须找回散落各时空的过去版本的自己。</p>
+  </div>
+</a></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>旧校黑板</h4>
+      <p>一座黑板风格的静态电影站，把影片内容、分类浏览、排行榜与详情页完整落到 HTML 中。</p>
+    </div>
+    <div>
+      <h4>浏览</h4>
+      <ul>
+        <li><a href="catalog/">全部影片</a></li>
+        <li><a href="ranking.html">热度排行</a></li>
+        <li><a href="categories.html">分类浏览</a></li>
+        <li><a href="browse.html">智能搜索</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>更多</h4>
+      <ul>
+        <li><a href="about.html">网站介绍</a></li>
+        <li><a href="support.html">播放问题</a></li>
+        <li><a href="copyright.html">免责声明</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

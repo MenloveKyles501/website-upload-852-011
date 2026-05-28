@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>我是一名教师 · 旧校黑板</title>
+<meta name="description" content="1941年,一名苏联乡村教师面对德军占领,他唯一的武器不是枪,而是粉笔和一本未写完的《战争与和平》读后感。 1941年冬,德军闪电推进,一个小村庄被占领。安德烈是村里的年轻教师,热爱托尔斯泰,梦想写一本关于《战争与和平》的专著。德军指挥官看中他的德语能力,强迫他做翻译和维持秩序。安德烈在枪口下度日如年,他利用翻译的身份,巧妙地给游击队员传递情报,">
+<meta name="keywords" content="我是一名教师,剧情,战争,二战,教师,村庄,人性,牺牲,俄罗斯,2023,旧校黑板">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/data.js"></script>
+<script defer src="assets/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+</head>
+<body>
+<div class="site-shell">
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html" aria-label="旧校黑板 首页">
+      <div class="brand-mark"></div>
+      <div class="brand-title">
+        <strong>旧校黑板</strong>
+        <span>STATIC CINEMA</span>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="">首页</a><a href="catalog/" class="">全部影片</a><a href="ranking.html" class="">热度排行</a><a href="categories.html" class="">分类浏览</a><a href="regions.html" class="">地区</a><a href="years.html" class="">年份</a>
+    </nav>
+    <form class="searchbar" data-search-form>
+      <input name="q" type="search" placeholder="搜索影片标题、地区、类型、标签">
+      <button class="btn btn-primary" type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main class="section">
+  <div class="container">
+    <div class="detail-hero">
+      <div class="poster">
+        <img src="assets/posters/1500.svg" alt="我是一名教师">
+      </div>
+      <div class="detail-copy">
+        <div class="hero-kicker" style="margin-bottom:16px">影片详情 · 2023 · 俄罗斯 · 热度 77.3</div>
+        <h1>我是一名教师</h1>
+        <p class="lead">1941年,一名苏联乡村教师面对德军占领,他唯一的武器不是枪,而是粉笔和一本未写完的《战争与和平》读后感。</p>
+        <div class="hero-meta"><span class="chip">2023</span><span class="chip">俄罗斯</span><span class="chip">剧情</span><span class="chip">战争</span></div>
+        <div class="hero-actions" style="margin-top:10px">
+          <a class="btn btn-primary" href="#player">开始播放</a>
+          <a class="btn btn-secondary" href="catalog/">返回列表</a>
+        </div>
+        <div class="info-grid">
+          <div class="info-box"><span>类型</span><strong>剧情 / 战争</strong></div>
+          <div class="info-box"><span>地区</span><strong>俄罗斯</strong></div>
+          <div class="info-box"><span>年份</span><strong>2023</strong></div>
+        </div>
+        <div class="board">
+          <h3>剧情简介</h3>
+          <div class="prose"><p>1941年冬,德军闪电推进,一个小村庄被占领。安德烈是村里的年轻教师,热爱托尔斯泰,梦想写一本关于《战争与和平》的专著。德军指挥官看中他的德语能力,强迫他做翻译和维持秩序。安德烈在枪口下度日如年,他利用翻译的身份,巧妙地给游击队员传递情报,偷偷改写告示,让村民免于被枪决。他也在课堂上,用诗歌和历史故事,给孩子们心中埋下抵抗的种子。德军发现了情报泄露的源头,开始大清洗。安德烈面临着终极选择:交出游击队员换取全村的命,或者坚守正义导致全村陪葬。在平安夜,他走上村子中央的讲台——那个他曾教书的讲台,用粉笔在黑板上写下了几行字,那是他的遗言,也是给所有村民和德国士兵的一堂关于“人何以为人”的最后一课。</p></div>
+          <h3 style="margin-top:20px">影评</h3>
+          <div class="prose"><p>没有宏大的战争场面,却有着撼动人心的精神力量。影片将“教师”的职业特性与战争中的道德困境完美结合,粉笔化作武器,讲台成为战场。主角的表演极具说服力,平静外表下翻涌着巨大的情感力量。结尾的“最后一课”堪称影史经典段落,令人久久不能平静。</p></div>
+        </div>
+      </div>
+    </div>
+
+    <section class="player" id="player">
+      <div class="player-head">
+        <div class="section-title">
+          <h2>在线播放</h2>
+          <p>使用 HLS 片源与播放器初始化逻辑，支持点击播放</p>
+        </div>
+      </div>
+      <div class="player-wrap">
+        <div class="player-video">
+          <video id="moviePlayer" controls playsinline preload="metadata" poster="assets/posters/1500.svg" data-hls-src="assets/hls/sample/index.m3u8"></video>
+        </div>
+        <p id="playerFallback" class="prose" style="margin:14px 2px 0;">如果播放器尚未自动开始，点击播放即可。</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:18px">
+      <div class="board">
+        <div class="listing-head">
+          <div class="section-title">
+            <h2>相关推荐</h2>
+            <p>来自同地区、同类型与关联 ID 的静态推荐</p>
+          </div>
+        </div>
+        <div class="mini-list" id="relatedList" data-related-ids="0084,0163,0249,0332,0419,0496">
+          
+<a class="mini-item" href="movie-0084.html">
+  <img src="assets/posters/0084.svg" alt="杜什一家3">
+  <div>
+    <h4>杜什一家3</h4>
+    <p>2020 · 法国 · 喜剧 / 家庭</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0163.html">
+  <img src="assets/posters/0163.svg" alt="第四个男人">
+  <div>
+    <h4>第四个男人</h4>
+    <p>2024 · 中国大陆 · 悬疑 / 犯罪</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0249.html">
+  <img src="assets/posters/0249.svg" alt="阳光清洗">
+  <div>
+    <h4>阳光清洗</h4>
+    <p>2020 · 美国 · 剧情 / 黑色幽默</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0332.html">
+  <img src="assets/posters/0332.svg" alt="柠檬大嘴巴">
+  <div>
+    <h4>柠檬大嘴巴</h4>
+    <p>2011 · 美国 · 音乐 / 青春</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0419.html">
+  <img src="assets/posters/0419.svg" alt="斗罗大陆电视剧">
+  <div>
+    <h4>斗罗大陆电视剧</h4>
+    <p>2021 · 中国大陆 · 奇幻 / 冒险</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0496.html">
+  <img src="assets/posters/0496.svg" alt="诺亚动物诊所病历记录簿">
+  <div>
+    <h4>诺亚动物诊所病历记录簿</h4>
+    <p>2024 · 日本 · 奇幻 / 医疗</p>
+  </div>
+</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:18px">
+      <div class="board">
+        <div class="listing-head">
+          <div class="section-title">
+            <h2>同类热播</h2>
+            <p>相近类型与标签的更多静态入口</p>
+          </div>
+        </div>
+        <div class="movie-grid">
+<a class="movie-card" href="movie-0827.html">
+  <div class="thumb">
+    <img src="assets/posters/0827.svg" alt="阿拉斯加人">
+    <div class="badge">2026</div>
+    <div class="corner">美国</div>
+  </div>
+  <div class="body">
+    <h4>阿拉斯加人</h4>
+    <div class="meta">
+      <span>剧情 / 冒险</span>
+      <span>·</span>
+      <span>荒野生存、自我救赎</span>
+    </div>
+    <p class="desc">一个逃到阿拉斯加避世的男人,为了给恩人报仇,不得不重新学会说话、信任和杀戮。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0272.html">
+  <div class="thumb">
+    <img src="assets/posters/0272.svg" alt="特劳特曼">
+    <div class="badge">2026</div>
+    <div class="corner">德国</div>
+  </div>
+  <div class="body">
+    <h4>特劳特曼</h4>
+    <div class="meta">
+      <span>剧情 / 传记</span>
+      <span>·</span>
+      <span>足球、二战</span>
+    </div>
+    <p class="desc">一个被俘的德国士兵,战后却在英国成为足球传奇,他用一己之力打破了两个民族的仇恨。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0278.html">
+  <div class="thumb">
+    <img src="assets/posters/0278.svg" alt="邱少云">
+    <div class="badge">2025</div>
+    <div class="corner">中国</div>
+  </div>
+  <div class="body">
+    <h4>邱少云</h4>
+    <div class="meta">
+      <span>战争 / 历史</span>
+      <span>·</span>
+      <span>抗美援朝、革命烈士</span>
+    </div>
+    <p class="desc">391高地,一颗燃烧弹,三十分钟的烈火焚身,他用生命诠释了什么是“绝对服从”。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0792.html">
+  <div class="thumb">
+    <img src="assets/posters/0792.svg" alt="绵绵长路">
+    <div class="badge">2026</div>
+    <div class="corner">中国大陆</div>
+  </div>
+  <div class="body">
+    <h4>绵绵长路</h4>
+    <div class="meta">
+      <span>剧情 / 公路</span>
+      <span>·</span>
+      <span>老年、自驾</span>
+    </div>
+    <p class="desc">七旬退休教师开车带着患有阿尔茨海默症的妻子横穿中国,去她记忆里最后一个记得的地名。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0485.html">
+  <div class="thumb">
+    <img src="assets/posters/0485.svg" alt="蹩脚英语">
+    <div class="badge">2025</div>
+    <div class="corner">美国</div>
+  </div>
+  <div class="body">
+    <h4>蹩脚英语</h4>
+    <div class="meta">
+      <span>爱情 / 喜剧</span>
+      <span>·</span>
+      <span>语言障碍、异国邂逅</span>
+    </div>
+    <p class="desc">一个英语说不利索的中国大婶,靠一本破烂词典,追回了被遣返的意大利情人。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0847.html">
+  <div class="thumb">
+    <img src="assets/posters/0847.svg" alt="11度青春之《东奔西游》">
+    <div class="badge">2026</div>
+    <div class="corner">中国大陆</div>
+  </div>
+  <div class="body">
+    <h4>11度青春之《东奔西游》</h4>
+    <div class="meta">
+      <span>剧情 / 喜剧</span>
+      <span>·</span>
+      <span>北漂、西游记新编</span>
+    </div>
+    <p class="desc">唐僧师徒四人来到北京当北漂,唐僧做情感主播,悟空送外卖,八戒当吃播,沙僧开网约车。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-1337.html">
+  <div class="thumb">
+    <img src="assets/posters/1337.svg" alt="重庆英烈">
+    <div class="badge">2027</div>
+    <div class="corner">中国大陆</div>
+  </div>
+  <div class="body">
+    <h4>重庆英烈</h4>
+    <div class="meta">
+      <span>历史 / 战争</span>
+      <span>·</span>
+      <span>抗战、山城</span>
+    </div>
+    <p class="desc">1938年重庆大轰炸阴云下,一名女报务员必须在七十二小时内识破潜伏特务,护送绝密文件出城。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0115.html">
+  <div class="thumb">
+    <img src="assets/posters/0115.svg" alt="年轻的心">
+    <div class="badge">2026</div>
+    <div class="corner">中国大陆</div>
+  </div>
+  <div class="body">
+    <h4>年轻的心</h4>
+    <div class="meta">
+      <span>剧情 / 青春</span>
+      <span>·</span>
+      <span>养老院、忘年交</span>
+    </div>
+    <p class="desc">一个被全网网暴的叛逆少女,被扔进养老院做义工,却和一群八旬老人组成了摇滚乐队。</p>
+  </div>
+</a></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>旧校黑板</h4>
+      <p>一座黑板风格的静态电影站，把影片内容、分类浏览、排行榜与详情页完整落到 HTML 中。</p>
+    </div>
+    <div>
+      <h4>浏览</h4>
+      <ul>
+        <li><a href="catalog/">全部影片</a></li>
+        <li><a href="ranking.html">热度排行</a></li>
+        <li><a href="categories.html">分类浏览</a></li>
+        <li><a href="browse.html">智能搜索</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>更多</h4>
+      <ul>
+        <li><a href="about.html">网站介绍</a></li>
+        <li><a href="support.html">播放问题</a></li>
+        <li><a href="copyright.html">免责声明</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

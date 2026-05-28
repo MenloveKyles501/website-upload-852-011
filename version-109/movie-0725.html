@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>吃人的素食者 · 旧校黑板</title>
+<meta name="description" content="2050年,全球肉荒,一家生物公司推出“人肉”口味的合成蛋白,宣称“纯素食、零杀戮”,直到有人吃出了自己的DNA。 2050年,由于气候崩溃和人口爆炸,传统畜牧业彻底崩溃。一家名为“新伊甸园”的生物科技公司推出了划时代产品——“亚当肉”,一种通过培养人类干细胞制成的合成蛋白,口感与顶级牛肉无异,且宣称“百分百素食,不伤害任何动物”,迅速风靡全球。然而,美">
+<meta name="keywords" content="吃人的素食者,科幻,恐怖,惊悚,生物科技,道德反转,素食主义,人体改造,英国,2026,旧校黑板">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/data.js"></script>
+<script defer src="assets/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+</head>
+<body>
+<div class="site-shell">
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html" aria-label="旧校黑板 首页">
+      <div class="brand-mark"></div>
+      <div class="brand-title">
+        <strong>旧校黑板</strong>
+        <span>STATIC CINEMA</span>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="">首页</a><a href="catalog/" class="">全部影片</a><a href="ranking.html" class="">热度排行</a><a href="categories.html" class="">分类浏览</a><a href="regions.html" class="">地区</a><a href="years.html" class="">年份</a>
+    </nav>
+    <form class="searchbar" data-search-form>
+      <input name="q" type="search" placeholder="搜索影片标题、地区、类型、标签">
+      <button class="btn btn-primary" type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main class="section">
+  <div class="container">
+    <div class="detail-hero">
+      <div class="poster">
+        <img src="assets/posters/0725.svg" alt="吃人的素食者">
+      </div>
+      <div class="detail-copy">
+        <div class="hero-kicker" style="margin-bottom:16px">影片详情 · 2026 · 英国 · 热度 81.9</div>
+        <h1>吃人的素食者</h1>
+        <p class="lead">2050年,全球肉荒,一家生物公司推出“人肉”口味的合成蛋白,宣称“纯素食、零杀戮”,直到有人吃出了自己的DNA。</p>
+        <div class="hero-meta"><span class="chip">2026</span><span class="chip">英国</span><span class="chip">科幻</span><span class="chip">恐怖</span><span class="chip">惊悚</span></div>
+        <div class="hero-actions" style="margin-top:10px">
+          <a class="btn btn-primary" href="#player">开始播放</a>
+          <a class="btn btn-secondary" href="catalog/">返回列表</a>
+        </div>
+        <div class="info-grid">
+          <div class="info-box"><span>类型</span><strong>科幻 / 恐怖 / 惊悚</strong></div>
+          <div class="info-box"><span>地区</span><strong>英国</strong></div>
+          <div class="info-box"><span>年份</span><strong>2026</strong></div>
+        </div>
+        <div class="board">
+          <h3>剧情简介</h3>
+          <div class="prose"><p>2050年,由于气候崩溃和人口爆炸,传统畜牧业彻底崩溃。一家名为“新伊甸园”的生物科技公司推出了划时代产品——“亚当肉”,一种通过培养人类干细胞制成的合成蛋白,口感与顶级牛肉无异,且宣称“百分百素食,不伤害任何动物”,迅速风靡全球。然而,美食博主克洛伊在一次基因溯源测试中发现,“亚当肉”的DNA与她自己的样本高度匹配,相似度高达99.9%。她秘密调查,骇然发现公司所谓的“干细胞库”并非来自志愿捐赠者,而是来自全球各地陆续失踪的流浪汉和难民。他们被“饲养”在公司的地下农场,保持着最低的生命体征,持续不断地为“亚当肉”生产线提供“新鲜食材”。克洛伊正准备公开真相时,却被公司告知:你自己和你几百万的粉丝,在过去一年里,也一直在吃“自己”。</p></div>
+          <h3 style="margin-top:20px">影评</h3>
+          <div class="prose"><p>概念极其炸裂,将环保、素食、科技伦理等话题推向了最极致的恐怖谷效应。前半段的赛博朋克世界构建非常迷人,后半段的地下农场揭示让人毛骨悚然。结局的道德拷问足以让任何观众放下手中的肉制品。</p></div>
+        </div>
+      </div>
+    </div>
+
+    <section class="player" id="player">
+      <div class="player-head">
+        <div class="section-title">
+          <h2>在线播放</h2>
+          <p>使用 HLS 片源与播放器初始化逻辑，支持点击播放</p>
+        </div>
+      </div>
+      <div class="player-wrap">
+        <div class="player-video">
+          <video id="moviePlayer" controls playsinline preload="metadata" poster="assets/posters/0725.svg" data-hls-src="assets/hls/sample/index.m3u8"></video>
+        </div>
+        <p id="playerFallback" class="prose" style="margin:14px 2px 0;">如果播放器尚未自动开始，点击播放即可。</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:18px">
+      <div class="board">
+        <div class="listing-head">
+          <div class="section-title">
+            <h2>相关推荐</h2>
+            <p>来自同地区、同类型与关联 ID 的静态推荐</p>
+          </div>
+        </div>
+        <div class="mini-list" id="relatedList" data-related-ids="0131,0470,0259,0362,0067,0440">
+          
+<a class="mini-item" href="movie-0131.html">
+  <img src="assets/posters/0131.svg" alt="姜是老的辣">
+  <div>
+    <h4>姜是老的辣</h4>
+    <p>2024 · 中国 · 喜剧 / 动作</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0470.html">
+  <img src="assets/posters/0470.svg" alt="特攻突击队">
+  <div>
+    <h4>特攻突击队</h4>
+    <p>2025 · 美国 · 动作 / 悬疑</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0259.html">
+  <img src="assets/posters/0259.svg" alt="信任之剑">
+  <div>
+    <h4>信任之剑</h4>
+    <p>2024 · 英国 · 历史 / 冒险</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0362.html">
+  <img src="assets/posters/0362.svg" alt="骇速霹雳火">
+  <div>
+    <h4>骇速霹雳火</h4>
+    <p>2026 · 中国香港 · 动作 / 赛车</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0067.html">
+  <img src="assets/posters/0067.svg" alt="血染征尘">
+  <div>
+    <h4>血染征尘</h4>
+    <p>2021 · 中国大陆 · 战争 / 历史</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0440.html">
+  <img src="assets/posters/0440.svg" alt="陶之恋">
+  <div>
+    <h4>陶之恋</h4>
+    <p>2014 · 中国大陆 · 爱情 / 剧情</p>
+  </div>
+</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:18px">
+      <div class="board">
+        <div class="listing-head">
+          <div class="section-title">
+            <h2>同类热播</h2>
+            <p>相近类型与标签的更多静态入口</p>
+          </div>
+        </div>
+        <div class="movie-grid">
+<a class="movie-card" href="movie-0930.html">
+  <div class="thumb">
+    <img src="assets/posters/0930.svg" alt="第三只眼 2">
+    <div class="badge">2027</div>
+    <div class="corner">印度</div>
+  </div>
+  <div class="body">
+    <h4>第三只眼 2</h4>
+    <div class="meta">
+      <span>悬疑 / 科幻</span>
+      <span>·</span>
+      <span>预知未来、超能力</span>
+    </div>
+    <p class="desc">能够看到未来碎片的女主角预见到了一场可怕的地铁大爆炸,但她每次试图阻止,都会加速灾难的到来。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0724.html">
+  <div class="thumb">
+    <img src="assets/posters/0724.svg" alt="无尽">
+    <div class="badge">2026</div>
+    <div class="corner">美国</div>
+  </div>
+  <div class="body">
+    <h4>无尽</h4>
+    <div class="meta">
+      <span>科幻 / 悬疑</span>
+      <span>·</span>
+      <span>时间循环、太空科幻</span>
+    </div>
+    <p class="desc">一艘殖民飞船的冬眠系统故障,导致唯一醒来的船员陷入了长达4000年的孤独循环。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-1763.html">
+  <div class="thumb">
+    <img src="assets/posters/1763.svg" alt="赌注之剑">
+    <div class="badge">2025</div>
+    <div class="corner">韩国</div>
+  </div>
+  <div class="body">
+    <h4>赌注之剑</h4>
+    <div class="meta">
+      <span>动作 / 古装</span>
+      <span>·</span>
+      <span>剑客、赌局</span>
+    </div>
+    <p class="desc">为赎回自己被当成赌注的妹妹,残废剑客用一把断剑与地下赌庄的九位顶级高手生死相搏。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0583.html">
+  <div class="thumb">
+    <img src="assets/posters/0583.svg" alt="别穿越时空了,恋人们">
+    <div class="badge">2025</div>
+    <div class="corner">日本</div>
+  </div>
+  <div class="body">
+    <h4>别穿越时空了,恋人们</h4>
+    <div class="meta">
+      <span>科幻 / 爱情</span>
+      <span>·</span>
+      <span>时间循环、反套路</span>
+    </div>
+    <p class="desc">男主意外获得穿越能力,却每次回到过去都把事情搞得更糟,女主被迫负责给他善后。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0979.html">
+  <div class="thumb">
+    <img src="assets/posters/0979.svg" alt="脱困">
+    <div class="badge">2026</div>
+    <div class="corner">韩国</div>
+  </div>
+  <div class="body">
+    <h4>脱困</h4>
+    <div class="meta">
+      <span>悬疑 / 动作</span>
+      <span>·</span>
+      <span>密室、反转</span>
+    </div>
+    <p class="desc">一个普通上班族在停车场被人绑架,醒来后发现自己被封在一个水泥棺材里,只有一部快没电的老人机。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-1300.html">
+  <div class="thumb">
+    <img src="assets/posters/1300.svg" alt="油泵危机">
+    <div class="badge">2025</div>
+    <div class="corner">美国</div>
+  </div>
+  <div class="body">
+    <h4>油泵危机</h4>
+    <div class="meta">
+      <span>动作 / 惊悚</span>
+      <span>·</span>
+      <span>限时救援、工业事故</span>
+    </div>
+    <p class="desc">巨型油轮泄漏前两小时,一名退役潜水员必须徒手潜入充满剧毒化学药剂的深海泵阀。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-1349.html">
+  <div class="thumb">
+    <img src="assets/posters/1349.svg" alt="诺斯费拉图2024">
+    <div class="badge">2024</div>
+    <div class="corner">美国/德国</div>
+  </div>
+  <div class="body">
+    <h4>诺斯费拉图2024</h4>
+    <div class="meta">
+      <span>恐怖 / 悬疑</span>
+      <span>·</span>
+      <span>吸血鬼、哥特</span>
+    </div>
+    <p class="desc">当古老的吸血鬼伯爵通过暗网传播恐惧时,一个失去信仰的网络安全专家成为了最后的屏障。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-1372.html">
+  <div class="thumb">
+    <img src="assets/posters/1372.svg" alt="电锯惊魂7">
+    <div class="badge">2027</div>
+    <div class="corner">美国</div>
+  </div>
+  <div class="body">
+    <h4>电锯惊魂7</h4>
+    <div class="meta">
+      <span>恐怖 / 惊悚</span>
+      <span>·</span>
+      <span>血腥、密室逃脱</span>
+    </div>
+    <p class="desc">竖锯的最后一个门徒接管游戏,这次的目标是利用虚拟现实游戏,审判网络键盘侠。</p>
+  </div>
+</a></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>旧校黑板</h4>
+      <p>一座黑板风格的静态电影站，把影片内容、分类浏览、排行榜与详情页完整落到 HTML 中。</p>
+    </div>
+    <div>
+      <h4>浏览</h4>
+      <ul>
+        <li><a href="catalog/">全部影片</a></li>
+        <li><a href="ranking.html">热度排行</a></li>
+        <li><a href="categories.html">分类浏览</a></li>
+        <li><a href="browse.html">智能搜索</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>更多</h4>
+      <ul>
+        <li><a href="about.html">网站介绍</a></li>
+        <li><a href="support.html">播放问题</a></li>
+        <li><a href="copyright.html">免责声明</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>语义错误2022 · 旧校黑板</title>
+<meta name="description" content="完美主义的程序员和自由散漫的设计师做小组作业,一个要格式统一,一个要随心所欲。 计算机系学霸秋尚宇是原则主义者,凡事讲究逻辑和规范。视觉设计系转学生张宰英恰恰相反,他靠直觉和感性活着。两人被分到同一个跨学科项目组,尚宇写代码要严格遵守PEP8规范,宰英做UI设计坚持“感觉对了就行”。矛盾从变量命名吵到色彩搭配,从图书馆">
+<meta name="keywords" content="语义错误2022,爱情,同性,校园BL,程序猿攻,艺术系受,欢喜冤家,高甜,韩国,2022,旧校黑板">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/data.js"></script>
+<script defer src="assets/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+</head>
+<body>
+<div class="site-shell">
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html" aria-label="旧校黑板 首页">
+      <div class="brand-mark"></div>
+      <div class="brand-title">
+        <strong>旧校黑板</strong>
+        <span>STATIC CINEMA</span>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="">首页</a><a href="catalog/" class="">全部影片</a><a href="ranking.html" class="">热度排行</a><a href="categories.html" class="">分类浏览</a><a href="regions.html" class="">地区</a><a href="years.html" class="">年份</a>
+    </nav>
+    <form class="searchbar" data-search-form>
+      <input name="q" type="search" placeholder="搜索影片标题、地区、类型、标签">
+      <button class="btn btn-primary" type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main class="section">
+  <div class="container">
+    <div class="detail-hero">
+      <div class="poster">
+        <img src="assets/posters/0444.svg" alt="语义错误2022">
+      </div>
+      <div class="detail-copy">
+        <div class="hero-kicker" style="margin-bottom:16px">影片详情 · 2022 · 韩国 · 热度 77.5</div>
+        <h1>语义错误2022</h1>
+        <p class="lead">完美主义的程序员和自由散漫的设计师做小组作业,一个要格式统一,一个要随心所欲。</p>
+        <div class="hero-meta"><span class="chip">2022</span><span class="chip">韩国</span><span class="chip">爱情</span><span class="chip">同性</span></div>
+        <div class="hero-actions" style="margin-top:10px">
+          <a class="btn btn-primary" href="#player">开始播放</a>
+          <a class="btn btn-secondary" href="catalog/">返回列表</a>
+        </div>
+        <div class="info-grid">
+          <div class="info-box"><span>类型</span><strong>爱情 / 同性</strong></div>
+          <div class="info-box"><span>地区</span><strong>韩国</strong></div>
+          <div class="info-box"><span>年份</span><strong>2022</strong></div>
+        </div>
+        <div class="board">
+          <h3>剧情简介</h3>
+          <div class="prose"><p>计算机系学霸秋尚宇是原则主义者,凡事讲究逻辑和规范。视觉设计系转学生张宰英恰恰相反,他靠直觉和感性活着。两人被分到同一个跨学科项目组,尚宇写代码要严格遵守PEP8规范,宰英做UI设计坚持“感觉对了就行”。矛盾从变量命名吵到色彩搭配,从图书馆抢座位闹到教授办公室。尚宇发现宰英每次改完代码都会偷偷在注释里画笑脸,宰英发现尚宇嘴上嫌弃但私下把他的设计稿设成了手机壁纸。两人开始了一场“我看不惯你但离不开你”的拉锯战,直到宰英当着全班的面,把一个写着“if you love me return true”的程序跑给尚宇看。</p></div>
+          <h3 style="margin-top:20px">影评</h3>
+          <div class="prose"><p>把“性格反差”做到极致,甜而不腻。两人吵架的台词精准得像代码编译,和好的瞬间又感性得像调色板泼洒。最后那个程序表白被无数观众截图,年度BL天花板级作品。节奏快,八集完全不够看。</p></div>
+        </div>
+      </div>
+    </div>
+
+    <section class="player" id="player">
+      <div class="player-head">
+        <div class="section-title">
+          <h2>在线播放</h2>
+          <p>使用 HLS 片源与播放器初始化逻辑，支持点击播放</p>
+        </div>
+      </div>
+      <div class="player-wrap">
+        <div class="player-video">
+          <video id="moviePlayer" controls playsinline preload="metadata" poster="assets/posters/0444.svg" data-hls-src="assets/hls/sample/index.m3u8"></video>
+        </div>
+        <p id="playerFallback" class="prose" style="margin:14px 2px 0;">如果播放器尚未自动开始，点击播放即可。</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:18px">
+      <div class="board">
+        <div class="listing-head">
+          <div class="section-title">
+            <h2>相关推荐</h2>
+            <p>来自同地区、同类型与关联 ID 的静态推荐</p>
+          </div>
+        </div>
+        <div class="mini-list" id="relatedList" data-related-ids="0288,0356,0125,0469,0189,0072">
+          
+<a class="mini-item" href="movie-0288.html">
+  <img src="assets/posters/0288.svg" alt="鼹鼠之歌2:香港狂骚曲">
+  <div>
+    <h4>鼹鼠之歌2:香港狂骚曲</h4>
+    <p>2024 · 日本 · 喜剧 / 动作</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0356.html">
+  <img src="assets/posters/0356.svg" alt="笔仙惊魂">
+  <div>
+    <h4>笔仙惊魂</h4>
+    <p>2023 · 中国大陆 · 恐怖 / 校园</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0125.html">
+  <img src="assets/posters/0125.svg" alt="我就是90后">
+  <div>
+    <h4>我就是90后</h4>
+    <p>2022 · 中国大陆 · 青春 / 家庭</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0469.html">
+  <img src="assets/posters/0469.svg" alt="疯狂的麦咭第八季">
+  <div>
+    <h4>疯狂的麦咭第八季</h4>
+    <p>2019 · 中国大陆 · 冒险 / 真人秀</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0189.html">
+  <img src="assets/posters/0189.svg" alt="柳生一族的阴谋">
+  <div>
+    <h4>柳生一族的阴谋</h4>
+    <p>1978 · 日本 · 动作 / 历史</p>
+  </div>
+</a>
+<a class="mini-item" href="movie-0072.html">
+  <img src="assets/posters/0072.svg" alt="我盛大的希腊婚礼3">
+  <div>
+    <h4>我盛大的希腊婚礼3</h4>
+    <p>2023 · 美国 · 喜剧 / 爱情</p>
+  </div>
+</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:18px">
+      <div class="board">
+        <div class="listing-head">
+          <div class="section-title">
+            <h2>同类热播</h2>
+            <p>相近类型与标签的更多静态入口</p>
+          </div>
+        </div>
+        <div class="movie-grid">
+<a class="movie-card" href="movie-0583.html">
+  <div class="thumb">
+    <img src="assets/posters/0583.svg" alt="别穿越时空了,恋人们">
+    <div class="badge">2025</div>
+    <div class="corner">日本</div>
+  </div>
+  <div class="body">
+    <h4>别穿越时空了,恋人们</h4>
+    <div class="meta">
+      <span>科幻 / 爱情</span>
+      <span>·</span>
+      <span>时间循环、反套路</span>
+    </div>
+    <p class="desc">男主意外获得穿越能力,却每次回到过去都把事情搞得更糟,女主被迫负责给他善后。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0485.html">
+  <div class="thumb">
+    <img src="assets/posters/0485.svg" alt="蹩脚英语">
+    <div class="badge">2025</div>
+    <div class="corner">美国</div>
+  </div>
+  <div class="body">
+    <h4>蹩脚英语</h4>
+    <div class="meta">
+      <span>爱情 / 喜剧</span>
+      <span>·</span>
+      <span>语言障碍、异国邂逅</span>
+    </div>
+    <p class="desc">一个英语说不利索的中国大婶,靠一本破烂词典,追回了被遣返的意大利情人。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-1400.html">
+  <div class="thumb">
+    <img src="assets/posters/1400.svg" alt="错位情缘">
+    <div class="badge">2025</div>
+    <div class="corner">韩国</div>
+  </div>
+  <div class="body">
+    <h4>错位情缘</h4>
+    <div class="meta">
+      <span>爱情 / 奇幻</span>
+      <span>·</span>
+      <span>灵魂互换、替身爱人</span>
+    </div>
+    <p class="desc">绝症画家与冷漠财阀在一次车祸中灵魂互换,她必须用他的身体为自己寻找心脏移植的捐赠者。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0317.html">
+  <div class="thumb">
+    <img src="assets/posters/0317.svg" alt="准新娘">
+    <div class="badge">2024</div>
+    <div class="corner">韩国</div>
+  </div>
+  <div class="body">
+    <h4>准新娘</h4>
+    <div class="meta">
+      <span>爱情 / 悬疑</span>
+      <span>·</span>
+      <span>婚前恐惧、替身新娘</span>
+    </div>
+    <p class="desc">婚礼前三天,准新娘失踪,来参加婚礼的失散双胞胎妹妹被迫替嫁,却发现新郎的秘密比她还多。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0893.html">
+  <div class="thumb">
+    <img src="assets/posters/0893.svg" alt="时空之隙">
+    <div class="badge">2024</div>
+    <div class="corner">中国大陆</div>
+  </div>
+  <div class="body">
+    <h4>时空之隙</h4>
+    <div class="meta">
+      <span>科幻 / 爱情</span>
+      <span>·</span>
+      <span>平行宇宙、蝴蝶效应</span>
+    </div>
+    <p class="desc">一个物理系女生发现了一道只有她能看见的“缝隙”,穿过缝隙,她能修正过去的错误,却让未来更糟。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-1718.html">
+  <div class="thumb">
+    <img src="assets/posters/1718.svg" alt="我的内心国语">
+    <div class="badge">2024</div>
+    <div class="corner">中国台湾</div>
+  </div>
+  <div class="body">
+    <h4>我的内心国语</h4>
+    <div class="meta">
+      <span>剧情 / 同性</span>
+      <span>·</span>
+      <span>国语政策、身份认同</span>
+    </div>
+    <p class="desc">在国语推行员强行压制方言的年代,两个只说闽南语的女孩,用彼此的身体发明了一套只有她们懂的语言。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-1577.html">
+  <div class="thumb">
+    <img src="assets/posters/1577.svg" alt="王爷你好贱第三季">
+    <div class="badge">2025</div>
+    <div class="corner">中国大陆</div>
+  </div>
+  <div class="body">
+    <h4>王爷你好贱第三季</h4>
+    <div class="meta">
+      <span>喜剧 / 古装</span>
+      <span>·</span>
+      <span>穿越、反套路</span>
+    </div>
+    <p class="desc">现代毒舌脱口秀演员穿越成受气包王妃,把腹黑王爷怼到自闭,却意外开启了反撩模式。</p>
+  </div>
+</a>
+<a class="movie-card" href="movie-0233.html">
+  <div class="thumb">
+    <img src="assets/posters/0233.svg" alt="思无邪">
+    <div class="badge">2025</div>
+    <div class="corner">中国台湾</div>
+  </div>
+  <div class="body">
+    <h4>思无邪</h4>
+    <div class="meta">
+      <span>剧情 / 同性</span>
+      <span>·</span>
+      <span>校园、暗恋</span>
+    </div>
+    <p class="desc">高中女生暗恋闺蜜三年,在《诗经》选修课上,她发现闺蜜悄悄在所有“思无邪”三个字下画了线。</p>
+  </div>
+</a></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>旧校黑板</h4>
+      <p>一座黑板风格的静态电影站，把影片内容、分类浏览、排行榜与详情页完整落到 HTML 中。</p>
+    </div>
+    <div>
+      <h4>浏览</h4>
+      <ul>
+        <li><a href="catalog/">全部影片</a></li>
+        <li><a href="ranking.html">热度排行</a></li>
+        <li><a href="categories.html">分类浏览</a></li>
+        <li><a href="browse.html">智能搜索</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>更多</h4>
+      <ul>
+        <li><a href="about.html">网站介绍</a></li>
+        <li><a href="support.html">播放问题</a></li>
+        <li><a href="copyright.html">免责声明</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

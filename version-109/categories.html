@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分类浏览 · 旧校黑板</title>
+<meta name="description" content="按类型、地区、年份浏览影片的入口页。">
+<meta name="keywords" content="旧校黑板,分类,类型,地区,年份">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/data.js"></script>
+<script defer src="assets/app.js"></script>
+
+</head>
+<body>
+<div class="site-shell">
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html" aria-label="旧校黑板 首页">
+      <div class="brand-mark"></div>
+      <div class="brand-title">
+        <strong>旧校黑板</strong>
+        <span>STATIC CINEMA</span>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="">首页</a><a href="catalog/" class="">全部影片</a><a href="ranking.html" class="">热度排行</a><a href="categories.html" class="active">分类浏览</a><a href="regions.html" class="">地区</a><a href="years.html" class="">年份</a>
+    </nav>
+    <form class="searchbar" data-search-form>
+      <input name="q" type="search" placeholder="搜索影片标题、地区、类型、标签">
+      <button class="btn btn-primary" type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main class="section">
+  <div class="container">
+    <div class="board">
+      <div class="listing-head">
+        <div class="section-title">
+          <h1>分类浏览</h1>
+          <p>先选择入口，再进入智能筛选页查看完整影片内容</p>
+        </div>
+        <a class="btn btn-secondary" href="browse.html">进入搜索页</a>
+      </div>
+      <div class="grid-4">
+        <a class="movie-card" href="browse.html"><div class="body"><h4>全部影片</h4><p class="desc">查看 2000 部完整内容</p></div></a>
+        <a class="movie-card" href="ranking.html"><div class="body"><h4>热度排行</h4><p class="desc">按热度指数浏览推荐榜单</p></div></a>
+        <a class="movie-card" href="regions.html"><div class="body"><h4>按地区分类</h4><p class="desc">浏览不同国家与地区作品</p></div></a>
+        <a class="movie-card" href="years.html"><div class="body"><h4>按年份分类</h4><p class="desc">浏览不同年份的影片</p></div></a>
+      </div>
+      <div class="filter-row" style="margin-top:18px">
+        <a class="chip" href="browse.html?genre=剧情">剧情 · 702</a><a class="chip" href="browse.html?genre=悬疑">悬疑 · 390</a><a class="chip" href="browse.html?genre=喜剧">喜剧 · 369</a><a class="chip" href="browse.html?genre=动作">动作 · 330</a><a class="chip" href="browse.html?genre=爱情">爱情 · 302</a><a class="chip" href="browse.html?genre=奇幻">奇幻 · 253</a><a class="chip" href="browse.html?genre=犯罪">犯罪 · 245</a><a class="chip" href="browse.html?genre=家庭">家庭 · 239</a><a class="chip" href="browse.html?genre=惊悚">惊悚 · 221</a><a class="chip" href="browse.html?genre=科幻">科幻 · 175</a><a class="chip" href="browse.html?genre=历史">历史 · 138</a><a class="chip" href="browse.html?genre=恐怖">恐怖 · 137</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>旧校黑板</h4>
+      <p>一座黑板风格的静态电影站，把影片内容、分类浏览、排行榜与详情页完整落到 HTML 中。</p>
+    </div>
+    <div>
+      <h4>浏览</h4>
+      <ul>
+        <li><a href="catalog/">全部影片</a></li>
+        <li><a href="ranking.html">热度排行</a></li>
+        <li><a href="categories.html">分类浏览</a></li>
+        <li><a href="browse.html">智能搜索</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>更多</h4>
+      <ul>
+        <li><a href="about.html">网站介绍</a></li>
+        <li><a href="support.html">播放问题</a></li>
+        <li><a href="copyright.html">免责声明</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
